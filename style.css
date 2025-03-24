@@ -1,0 +1,157 @@
+body{
+  background: #bcdaec;
+}
+button{
+  border: none;
+  background: #64afe4;
+  padding: 50px 100px;
+  position: relative;
+  z-index: 1;
+}
+.overlay{
+  background: #c01b1b;
+  position: absolute;
+  height: 0;
+  width: 0;
+  left: 0;
+  bottom: 0;
+  transition: 1s;
+  z-index: -1;
+}
+button:hover .overlay{
+  height: 50%;
+  width: 50%;
+}
+
+/*-----------overlay2------------*/
+
+.overlay2{
+  background: #118d11;
+  position: absolute;
+  height: 0;
+  width: 0;
+  right: 0;
+  bottom: 0;
+  transition: 1s;
+  z-index: -1;
+}
+button:hover .overlay2{
+  height: 50%;
+  width: 50%;
+}
+
+/* -----------overlay3-------------- */
+
+.overlay3{
+  background: #8519b8;
+  position: absolute;
+  height: 0;
+  width: 0;
+  left: 0;
+  top: 0;
+  transition: 1s;
+  z-index: -1;
+}
+button:hover .overlay3{
+  height: 50%;
+  width: 50%;
+}
+
+/* ----------overlay4----------- */
+
+.overlay4{
+  background: #c7bc1e;
+  position: absolute;
+  height: 0;
+  width: 0;
+  right: 0;
+  top: 0;
+  transition: 1s;
+  z-index: -1;
+}
+button:hover .overlay4{
+  height: 50%;
+  width: 50%;
+}
+
+/*--------------button2-------------*/
+
+.two{
+  position: relative;
+  border: none;
+  background: #2ea4a8;
+  padding: 50px 100px;
+}
+.two::after{
+  position: absolute;
+  content: "";
+  left: 50%;
+  top: 120px;
+  background: #d13c37;
+  width: 0px;
+  height: 10px;
+  transition: 1s;
+  transform: translateX(-50%);
+}
+.two:hover::after{
+  width: 100%;
+}
+
+.two::before{
+  position: absolute;
+  content: "";
+  left: 50%;
+  top: 135px;
+  background: #8cce22;
+  width: 100%;
+  height: 10px;
+  transition: 1s;
+  transform: translateX(-50%);
+  opacity: 0;
+}
+.two:hover::before{
+  width: 0%;
+  opacity: 1;
+}
+
+/*--------------button3-------------*/
+
+.b3{
+  border: none;
+  background: #84cf47;
+  padding: 50px 100px;
+  position: relative;
+  z-index: 1;
+}
+.over{
+  background: #c01b1b;
+  position: absolute;
+  height: 0;
+  width: 0;
+  left: 0;
+  bottom: 0;
+  transition: 1s;
+  z-index: -1;
+}
+.b3:hover .over{
+  height: 50%;
+  width: 50%;
+}
+.over4{
+  background: #ffffff;
+  position: absolute;
+  height: 0;
+  width: 0;
+  right: 0;
+  top: 0;
+  transition: 1s;
+  z-index: -1;
+}
+.b3:hover .over4{
+  height: 50%;
+  width: 50%;
+}
+
+
+
+
